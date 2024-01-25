@@ -5,8 +5,9 @@
 
 using namespace std;
 
-Game::Game(int maxNum) : maxNumber(maxNum)
+Game::Game(int maxNum)
 {
+    maxNumber = maxNum ;
     cout << "Maximum number is " << maxNumber << endl;
 }
 
