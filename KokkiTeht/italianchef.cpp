@@ -9,8 +9,8 @@ ItalianChef::ItalianChef(const std::string& name, int flour, int water) : Chef(n
 }
 
 void ItalianChef::makePasta() {
-    std::cout << "ItalianChef " << name << " is making pasta." << std::endl;
-    std::cout << "Using " << flour << "g of flour and " << water << "ml of water." << std::endl;
+    std::cout << "Italian Chef " << name << " is making pasta with a special recipe." << std::endl;
+    std::cout << name << " uses flour " << flour << "g and water " << water << "ml" << std::endl;
 }
 
 std::string ItalianChef::getName() const {

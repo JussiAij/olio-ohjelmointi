@@ -12,5 +12,8 @@ int main() {
     chef2.makeSoup();
     chef2.makePasta();
 
+    ItalianChef chef3("Chef Mario", 300, 500);
+    chef3.makePasta();
+
     return 0;
 }
